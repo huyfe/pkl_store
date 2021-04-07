@@ -1,0 +1,134 @@
+{
+  "categories": [
+    {
+      "name": "Hondaaaaa",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Yamhaaaaaaaa"
+    },
+    {
+      "id": 3,
+      "name": "Suzuki"
+    },
+    {
+      "id": 4,
+      "name": "Kawasaki"
+    },
+    {
+      "id": 5,
+      "name": "BMW"
+    },
+    {
+      "id": 6,
+      "name": "Ducati"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "CBR 1000RR-R",
+      "image": "cbr100rr-r.jpg",
+      "price": 1000000000,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "CBR 650RR",
+      "image": "cbr650rr.jpg",
+      "price": 1000000000,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "R1",
+      "image": "r1.jpg",
+      "price": 1000000000,
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "R6",
+      "image": "r6.jpg",
+      "price": 1000000000,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "R1000",
+      "image": "gsxr1000.jpg",
+      "price": 1000000000,
+      "categoryId": 3
+    },
+    {
+      "id": 6,
+      "name": "GSX R600",
+      "image": "gsxr600.jpg",
+      "price": 1000000000,
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "H2",
+      "image": "h2.jpg",
+      "price": 1000000000,
+      "categoryId": 4
+    },
+    {
+      "id": 8,
+      "name": "ZX-10R",
+      "image": "zx-10r.jpg",
+      "price": 1000000000,
+      "categoryId": 4
+    },
+    {
+      "id": 9,
+      "name": "S1000RR",
+      "image": "S1000RR.jpg",
+      "price": 1000000000,
+      "categoryId": 5
+    },
+    {
+      "id": 10,
+      "name": "RS1200",
+      "image": "RS1200.jpg",
+      "price": 1000000000,
+      "categoryId": 5
+    },
+    {
+      "id": 11,
+      "name": "Panigale 899",
+      "image": "panigale899.jpg",
+      "price": 1000000000,
+      "categoryId": 5
+    },
+    {
+      "id": 12,
+      "name": "Monster 795",
+      "image": "monster795.jpg",
+      "price": 1000000000,
+      "categoryId": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "products": [
+        {
+          "id": 1,
+          "quantity": 1,
+          "total": 100
+        },
+        {
+          "id": 2,
+          "quantity": 2,
+          "total": 150
+        }
+      ],
+      "status": true,
+      "totalOrders": 250
+    }
+  ],
+  "comments": []
+}
