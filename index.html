@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
     <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="lib/slick/slick.css" rel="stylesheet">
@@ -94,7 +95,7 @@
                     <div class="user">
                         <a href="cart.html" class="btn cart">
                             <i class="fa fa-shopping-cart"></i>
-                            <span>(0)</span>
+                            (<span id="countCart">0</span>)
                         </a>
                     </div>
                 </div>
@@ -103,14 +104,14 @@
     </div>
     <!-- Bottom Bar End -->
 
-    <!-- Main Slider Start -->
+        <!-- Main Slider Start -->
     <div class="header">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
                     <nav class="navbar bg-light rounded danh-muc" id="danh-muc">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
+                        <ul id="categoryBox" class="navbar-nav">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Honda</a>
                             </li>
                             <li class="nav-item">
@@ -127,7 +128,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Ducati</a>
-                            </li>
+                            </li> -->
 
                         </ul>
                     </nav>
@@ -199,8 +200,9 @@
             <div class="section-header bg-dark rounded">
                 <h1>PKL HOT</h1>
             </div>
-            <div class="row align-items-center product-slider product-slider-4">
-                <div class="col-lg-3">
+            <!-- class="row align-items-center product-slider product-slider-4" -->
+            <div id="hotProductBox" >
+                <!-- <div class="col-lg-3">
                     <div class="product-item">
                         <div class="product-title">
                             <a href="#">CBR 1000RR-R</a>
@@ -334,7 +336,7 @@
                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Mua Ngay</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -348,8 +350,9 @@
             <div class="section-header bg-dark rounded">
                 <h1>PKL NEW</h1>
             </div>
-            <div class="row align-items-center product-slider product-slider-4">
-                <div class="col-lg-3">
+            <!-- class="row align-items-center product-slider product-slider-4" -->
+            <div id="newProductBox">
+                <!-- <div class="col-lg-3">
                     <div class="product-item">
                         <div class="product-title">
                             <a href="#">CBR 1000RR-R</a>
@@ -483,7 +486,7 @@
                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Mua Ngay</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -672,16 +675,20 @@
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JavaScript Libraries -->
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/slick/slick.min.js"></script>
 
     <!-- Template Javascript -->
+
     <script src="js/main.js"></script>
     <script src="js/app.js" type="module"></script>
+
 </body>
 
 </html>

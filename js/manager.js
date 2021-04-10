@@ -84,20 +84,22 @@ export class Cart{
     postCart(data) {
         // Đầu tiên lấy ra item cart
         let cart = JSON.parse(localStorage.getItem("cart"));
-
         // Nếu cart khác null tức cart đã có thì tiến hành tìm id của item trong cart để update quantity
         if(cart != null) {
             let flag = false; // Biến để kiểm tra tìm đc id của item trong cart hay chưa
             for(let i = 0; i < cart.length; i++) {
-                if(cart[i].id == data.id) {
+                if(cart[i].id === data.id) {
+                
+                console.log(cart[i].id, data.id);
+
                     flag = true; // nếu tìm đc thì flag = true
                     let newCart = cart.map(obj => { // Tìm item trong cart đã có sau đó update quantity và map qua mảng mới là newCart
-                        if(obj.id == data.id) {
+                        if(obj.id === data.id) {
                             obj.quantity += data.quantity;
-                            obj.price += data.price;
+                            obj.total += data.total;
                             return obj;
                         }
-                        return obj
+                        return obj;
                     })
                     // Tiến hành xóa cart cũ để thêm cart đã đc update vào
                     localStorage.removeItem("cart");
@@ -129,9 +131,7 @@ export class Cart{
             localStorage.removeItem("cart");
             localStorage.setItem("cart", JSON.stringify(newCart));
         }
-        
     }
-    
 }
 
 

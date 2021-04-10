@@ -1,12 +1,12 @@
 {
   "categories": [
     {
-      "name": "Hondaaaaa",
+      "name": "Honda",
       "id": 1
     },
     {
       "id": 2,
-      "name": "Yamhaaaaaaaa"
+      "name": "Yamaha"
     },
     {
       "id": 3,
@@ -29,7 +29,7 @@
     {
       "id": 1,
       "name": "CBR 1000RR-R",
-      "image": "cbr100rr-r.jpg",
+      "image": "cbr1000rr-r.jpg",
       "price": 1000000000,
       "categoryId": 1
     },
@@ -85,7 +85,7 @@
     {
       "id": 9,
       "name": "S1000RR",
-      "image": "S1000RR.jpg",
+      "image": "s1000rr.jpg",
       "price": 1000000000,
       "categoryId": 5
     },
@@ -98,8 +98,8 @@
     },
     {
       "id": 11,
-      "name": "Panigale 899",
-      "image": "panigale899.jpg",
+      "name": "Panigale 1199",
+      "image": "panigale1199.jpg",
       "price": 1000000000,
       "categoryId": 5
     },

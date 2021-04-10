@@ -62,10 +62,3 @@ export class baseAPI { // Xuất ra class thao tác với API
     }
 }
 
-// axios({
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     data: {"name": "huy"},
-//     url: `http://localhost:3000/products`
-// })
-
